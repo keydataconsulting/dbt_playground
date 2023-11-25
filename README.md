@@ -1,5 +1,9 @@
 # dbt Playground
 
+> **Source:**  
+> Original repo copied from  [Migi/dbt_playground](https://github.com/Migi/dbt_playground)
+
+
 This repository is a self-contained dbt project that you can run with one click in a
 Gitpod workspace.
 
@@ -12,7 +16,7 @@ Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-ref
 If the above button doesn't work (depends on your browser), use the one below:
 
 [![Open in
-Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/datamindedacademy/dbt_playground.git)
+Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/keydataconsulting/dbt_playground.git)
 
 ## Features
 
