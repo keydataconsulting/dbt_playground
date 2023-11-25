@@ -1,4 +1,5 @@
-FROM gitpod/workspace-postgres
+FROM gitpod/workspace-postgres:2023-11-24-15-04-57
+# update the version of the workspace to use a different version
 
 
 # This env var is used to force the 
