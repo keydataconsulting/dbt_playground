@@ -1,0 +1,16 @@
+dbt_snowflake_profile:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "{{ env_var('DBT_SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('DBT_SNOWFLAKE_USER') }}"
+      password: "{{ env_var('DBT_SNOWFLAKE_PASSWORD') }}"
+      # private_key_path: "{{ env_var('GITPOD_REPO_ROOT') }}/profiles/private_key.p8"
+      database: "{{ env_var('DBT_SNOWFLAKE_DB') }}"
+      warehouse: "{{ env_var('DBT_SNOWFLAKE_WH') }}"
+      role: "{{ env_var('DBT_SNOWFLAKE_ROLE') }}"
+      schema: "{{ env_var('DBT_SNOWFLAKE_SCHEMA') }}"
+      threads: 3
+
+
