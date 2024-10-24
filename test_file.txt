@@ -1,3 +1,9 @@
+
 first file with some stuff in it
 
 see how we go
+=======
+some stuff on another feature branch
+
+see how it goes after merge
+
